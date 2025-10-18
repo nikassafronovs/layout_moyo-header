@@ -51,10 +51,10 @@ body {
   color: #000;
 }
 
-.nav__link_apple {
+.nav_link_apple {
   margin-left: 0;
 }
-
+  
 .nav_links:hover {
   color: #00acdc;
 }
