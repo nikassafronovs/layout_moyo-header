@@ -1,4 +1,8 @@
 /* stylelint-disable font-family-name-quotes */
+:root{
+  color: #00acdc;
+}
+
 body {
   margin: 0;
 }
@@ -49,10 +53,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
-}
-
-.nav_links:root {
-  color: blue;
 }
 
 .nav_links:hover {
