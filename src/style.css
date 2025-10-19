@@ -1,6 +1,6 @@
 /* stylelint-disable font-family-name-quotes */
 :root{
-  color: #00acdc;
+  --color-blue: #00acdc;
 }
 
 body {
