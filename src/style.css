@@ -51,22 +51,21 @@ body {
   color: #000;
 }
 
-.nav_link_apple {
-  margin-left: 0;
+.nav_links:root {
+  color: blue;
 }
-  
+
 .nav_links:hover {
-  color: #00acdc;
+  color: var(--color-blue);
 }
 
 .is-active {
-  position: relative;
-  color: #00acdc;
+  color: var(--color-blue);
 }
 
 .is-active::after {
   content: '';
-  background-color: #00acdc;
+  background-color: var(--color-blue);
   border-radius: 8px;
   height: 4px;
   position: absolute;
